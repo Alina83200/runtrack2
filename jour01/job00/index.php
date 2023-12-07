@@ -9,5 +9,6 @@
     Hello LaPlateforme!
     <?php echo '<h1>Hello LaPlateforme!<h1>'; ?>
 
+    
 </body>
 </html>
