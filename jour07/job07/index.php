@@ -19,9 +19,9 @@
             <option value="amerique">Amerique</option>
             <option value="japon">Japon</option>
         </select>
-        
+
         <button type="submit">Submit</button>
-        
+
 
     </form>
 
@@ -44,6 +44,7 @@
     ● “plateforme”, une fonction qui prend en paramètre “$str” : plateforme($str).
     Elle affiche “$str” en ajoutant un “_” aux mots finissant par “me”*/
     ?>
+
 
 </body>
 
