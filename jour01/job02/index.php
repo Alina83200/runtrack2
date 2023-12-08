@@ -8,7 +8,6 @@
 </head>
 <body>
     
-    
     <h2><?php echo $var;// C'est un comment?><h2>
 
     <h2><?php /*C'est un grand comment,
