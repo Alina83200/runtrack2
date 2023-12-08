@@ -43,6 +43,19 @@
     “c”.
     ● “plateforme”, une fonction qui prend en paramètre “$str” : plateforme($str).
     Elle affiche “$str” en ajoutant un “_” aux mots finissant par “me”*/
+
+    function gras($str){
+        
+    }
+
+
+
+
+
+
+
+
+
     ?>
 
 
