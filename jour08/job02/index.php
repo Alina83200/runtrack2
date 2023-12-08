@@ -4,6 +4,7 @@ Créez un cookie nommé “nbvisites”. A chaque fois que la page est visitée,
 Afficher le contenu du cookie.
 Ajoutez un bouton nommé “reset” qui permet de réinitialiser ce compteur.
 */
+
 $nbvisites = 1;
 
 if (isset($_COOKIE['nbvisites'])) {

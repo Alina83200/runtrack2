@@ -14,7 +14,7 @@
     visitée, ajoutez 1. 
     Afficher le contenu de cette variable.
     Ajoutez un bouton nommé “reset” qui permet de réinitialiser ce compteur.*/
-
+    
     session_start();
 
     $_SESSION['nbvisites'] = $_SESSION['nbvisites'] + 1;
