@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM etudiants WHERE naissance <= '2005-02-01';

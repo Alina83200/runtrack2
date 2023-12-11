@@ -1,0 +1,1 @@
+SELECT COUNT(superficie) FROM etage;
