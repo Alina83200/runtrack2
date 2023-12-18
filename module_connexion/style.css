@@ -1,0 +1,196 @@
+body,
+a,
+li,
+h1 {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-image: url("4814526.jpg");
+  display: block;
+  width: 100vw;
+}
+
+/*******header**********/
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 24px;
+}
+.navbar .menu {
+  padding-right: 24px;
+}
+.navbar .menu li {
+  display: inline;
+  padding: 0 16px 0 16px;
+  text-align: center;
+}
+.navbar .menu li:hover,
+.navbar .menu li:focus {
+  background-color: #eae9ff;
+  border-radius: 10px;
+ 
+}
+.navbar h1 a {
+  padding: 0 16px 0 16px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+/*******body**********/
+.hero {
+  display: flex;
+}
+.hero .content {
+  display: block;
+  text-align: left;
+  width: 40vw;
+  height: auto;
+  position: relative;
+  background-color: #fff;
+  opacity: 90%;
+  left: 24px;
+  border-radius: 10px;
+  padding: 30px 25px;
+}
+.content h1 {
+  color: #4e4c97;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0 0 15px;
+}
+.content h1 span {
+  color: #ce4f25;
+}
+.content p {
+  letter-spacing: 0.02em;
+}
+
+.form-container {
+  background-color: #fff;
+  opacity: 0.9;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 1vw 20vw 0 20vw;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px -15px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.hero .box_photo_grid {
+  display: grid;
+  float: right;
+  width: 40vw;
+  padding: 30px 25px;
+  column-gap: 10px;
+  border-radius: 10px;
+  row-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 150px);
+  margin-left: 10vw;
+  position: relative;
+  background-color: #fff;
+  opacity: 0.9;
+}
+.gr_1 {
+  background-image: url(./img/full-laplateforme.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+.gr_2 {
+  background-image: url(./img/pexels-gustavo-fring-4872028-2.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+.gr_3 {
+  background-image: url(./img/toulon-langagealacarte-1.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.form-container:before,
+.form-container:after {
+  content: "";
+  background-color: #4e4c97;
+  height: 50%;
+  width: 4px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.form-container:after {
+  top: auto;
+  bottom: 10px;
+  left: auto;
+  right: 10px;
+}
+.form-container .title {
+  color: #4e4c97;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0 0 15px;
+}
+.form-horizontal .form-group {
+  margin: 0 0 15px;
+}
+.form-horizontal .form-group:last-of-type {
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+.form-horizontal .form-control {
+  color: #2a2863;
+  background: #f5f6ff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  height: 40px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: 2px solid #f5f6ff;
+  box-shadow: none;
+}
+.form-horizontal .form-control:focus {
+  border-color: rgba(78, 76, 151, 0.5);
+  box-shadow: none;
+}
+.form-horizontal .form-control::placeholder {
+  color: #4e4c97;
+  font-size: 14px;
+  font-weight: 300;
+}
+.btn {
+  color: #fff;
+  background-color: #4e4c97;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  width: 130px;
+  padding: 11px;
+  margin: 0 10px 10px 0;
+  border: 2px solid #4e4c97;
+  border-radius: 15px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #4e4c97;
+  background-color: #fff;
+  box-shadow: 0 0 5px #4e4c97, 0 0 15px #4e4c97 inset;
+}
+
+
+
