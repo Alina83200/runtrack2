@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscription</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,200&display=swap"
@@ -74,23 +74,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 </head>
 
-<body>
-    <div class="">
-        <div class="">
-            <div class="form-container">
-                <h3>Créer un compte</h3>
+<body class="body">
+    <div class="body_ops">
+        <div class="container">
+            <div class="inscription_block">
+                <h3 class="inscription_block_title">Créer un compte</h3>
                 <!-- Formulaire d'inscription -->
 
                 <form action="inscription.php" method="post" class="form-horizontal">
-                    <div class="form-list">
-                        <div class="form-group">
+                    <div class="form_list">
 
+                        <div class="form_item">
                             <input type="text" class="form-control" id="login" name="login" placeholder="Login*"
                                 required>
-
                         </div>
 
-                        <div class="form-group">
+                        <div class="form_item">
                             <input type="password" class="form-control" id="password" name="password"
                                 placeholder="Password*" required>
                         </div>
